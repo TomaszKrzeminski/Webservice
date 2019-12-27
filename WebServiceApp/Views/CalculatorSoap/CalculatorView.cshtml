@@ -1,0 +1,36 @@
+﻿@model CalculatorData
+@{
+    Layout = "_Layout";
+}
+
+<h2>CalculatorView</h2>
+
+<div class="container">
+    <form asp-action="Action" method="post">
+        <div class="row">
+            <div>
+                <label>First Data</label>
+                <input name="A" />
+            </div>
+            <div>
+                <label>Second Data </label>
+                <input name="B" />
+            </div>
+            <div>
+                <label>Operation </label>
+                <select name="Operation">
+                    <option>Add</option>
+                    <option>Subtract</option>
+                    <option>Divide</option>
+                    <option>Multiply</option>
+                </select>
+            </div>
+           
+            <div>
+                <button class="btn btn-danger" type="submit">Action</button>
+            </div>
+           
+           
+        </div>
+</form>
+</div>

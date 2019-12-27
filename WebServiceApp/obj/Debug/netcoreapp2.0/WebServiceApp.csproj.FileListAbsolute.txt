@@ -9,3 +9,14 @@ C:\Users\tomek\Documents\Visual Studio 2017\Projects\WebServiceApp\WebServiceApp
 C:\Users\tomek\Documents\Visual Studio 2017\Projects\WebServiceApp\WebServiceApp\obj\Debug\netcoreapp2.0\WebServiceApp.dll
 C:\Users\tomek\Documents\Visual Studio 2017\Projects\WebServiceApp\WebServiceApp\obj\Debug\netcoreapp2.0\WebServiceApp.pdb
 C:\Users\tomek\Documents\Visual Studio 2017\Projects\WebServiceApp\WebServiceApp\obj\Debug\netcoreapp2.0\WebServiceApp.csprojAssemblyReference.cache
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\bin\Debug\netcoreapp2.0\WebServiceApp.deps.json
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\bin\Debug\netcoreapp2.0\WebServiceApp.runtimeconfig.json
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\bin\Debug\netcoreapp2.0\WebServiceApp.runtimeconfig.dev.json
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\bin\Debug\netcoreapp2.0\WebServiceApp.dll
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\bin\Debug\netcoreapp2.0\WebServiceApp.pdb
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\obj\Debug\netcoreapp2.0\WebServiceApp.csproj.CoreCompileInputs.cache
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\obj\Debug\netcoreapp2.0\WebServiceApp.AssemblyInfoInputs.cache
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\obj\Debug\netcoreapp2.0\WebServiceApp.AssemblyInfo.cs
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\obj\Debug\netcoreapp2.0\WebServiceApp.dll
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\obj\Debug\netcoreapp2.0\WebServiceApp.pdb
+C:\Users\tomek\Desktop\RepositoryWebService\WebServiceApp\WebServiceApp\obj\Debug\netcoreapp2.0\WebServiceApp.csprojAssemblyReference.cache
