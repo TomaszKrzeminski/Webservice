@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+-<current>
+  -<city name="Świecie" id="7533276">
+
+    <coord lat="53.41" lon="18.45"/>
+
+    <country>PL</country>
+
+    <timezone>3600</timezone>
+
+    <sun set="2019-12-26T14:31:24" rise="2019-12-26T07:01:31"/>
+
+  </city>
+
+  <temperature unit="celsius" max="5" min="3.33" value="4.14"/>
+
+  <feels_like unit="celsius" value="-0.4"/>
+
+  <humidity unit="%" value="86"/>
+
+  <pressure unit="hPa" value="1019"/>
+
+
+  -<wind>
+
+    <speed name="Gentle Breeze" unit="m/s" value="4.1"/>
+
+    <gusts/>
+
+    <direction name="West" value="280" code="W"/>
+
+  </wind>
+
+  <clouds name="overcast clouds" value="90"/>
+
+  <visibility value="10000"/>
+
+  <precipitation mode="no"/>
+
+  <weather value="overcast clouds" icon="04d" number="804"/>
+
+  <lastupdate value="2019-12-26T10:24:45"/>
+
+</current>

@@ -1,0 +1,76 @@
+﻿@model RootObject
+@{
+   
+    Layout = "_Layout";
+}
+
+       
+ 
+
+<div class="container">
+    <div class="container">
+        <h1 class="text-center">JSON Object</h1>
+
+        <table class="table table-bordered tab">
+            <thead>
+                <tr>
+                    <td>
+                        Clouds
+                    </td>
+                    <td>
+                        Name
+                    </td>
+                    <td>
+                        Temp
+                    </td>
+                    <td>
+                        Temp Min
+                    </td>
+                    <td>
+                        Temp Max
+                    </td>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.clouds.all</td>
+                    <td>@Model.name</td>
+                    <td>@Model.main.temp</td>
+                    <td>@Model.main.temp_min</td>
+                    <td>@Model.main.temp_max</td>
+                </tr>
+            </tbody>
+
+           
+
+
+        </table>
+        <div>
+            @foreach (var item in Model.weather)
+            {
+            <div>
+                <label class="text-uppercase">Description :</label>
+                <label>@item.description</label>
+                
+            </div>
+            <div>
+                <label class="text-uppercase">Icon :</label>
+                <label> @item.icon</label>
+               
+            </div>
+            <div>
+                <label class="text-uppercase">Id :</label>
+                <label> @item.id</label>
+               
+            </div>
+            <div>
+                <label class="text-uppercase">Main :</label>
+                <label> @item.main</label>
+               
+            </div>
+            }
+        </div>
+    </div>
+</div>

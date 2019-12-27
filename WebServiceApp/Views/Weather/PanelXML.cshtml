@@ -1,0 +1,51 @@
+﻿@model WebServiceApp.Models.Xml.Current
+@{
+
+    Layout = "_Layout";
+}
+
+
+
+
+<div class="container">
+    <div class="container">
+        <h1 class="text-center">Xml Object</h1>
+
+        <table class="table table-bordered tab">
+            <thead>
+                <tr>
+                    <td>
+                        City
+                    </td>
+                    <td>
+                        Temp
+                    </td>
+                    <td>
+                        Temp Min
+                    </td>
+                    <td>
+                        Temp Max
+                    </td>
+                    <td>
+                        Description
+                    </td>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.City.Name</td>
+                    <td>@Model.Temperature.Value</td>
+                    <td>@Model.Temperature.Min</td>
+                    <td>@Model.Temperature.Max</td>
+                    <td>@Model.Weather.Value</td>
+
+
+                </tr>
+            </tbody>
+
+
+
+        </table>
+    </div>

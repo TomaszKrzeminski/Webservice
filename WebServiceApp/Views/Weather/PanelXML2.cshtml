@@ -1,0 +1,51 @@
+﻿@model WebServiceApp.Models.Xml2.Weatherdata
+@{
+    Layout = "_Layout";
+}
+
+
+
+
+<div class="container">
+    <div class="container">
+        <h1 class="text-center">Xml Object 2</h1>
+
+        <table class="table table-bordered tab">
+            <thead>
+                <tr>
+                    <td>
+                       Altitude
+                    </td>
+                    <td>
+                        Latitude
+                    </td>
+                    <td>
+                       Longitude
+                    </td>
+                    <td>
+                        Geobase
+                    </td>
+                    <td>
+                       City
+                    </td>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.Location.location2.Altitude</td>
+                    <td>@Model.Location.location2.Latitude</td>
+                    <td>@Model.Location.location2.Longitude</td>
+                    <td>@Model.Location.location2.Geobase</td>
+                    <td>@Model.Location.Name</td>
+
+
+                </tr>
+            </tbody>
+
+
+
+        </table>
+    </div>
+

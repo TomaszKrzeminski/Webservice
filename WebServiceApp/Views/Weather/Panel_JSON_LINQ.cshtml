@@ -1,0 +1,52 @@
+﻿@model Weather_JSON_LINQ
+@{
+
+    Layout = "_Layout";
+}
+
+
+
+
+<div class="container">
+    <div class="container">
+        <h1 class="text-center">JSON Linq</h1>
+
+        <table class="table table-bordered tab">
+            <thead>
+                <tr>
+                    <td>
+                       City
+                    </td>
+                    <td>
+                        Temp
+                    </td>
+                    <td>
+                        Temp Min
+                    </td>
+                    <td>
+                        Temp Max
+                    </td>
+                    <td>
+                        Description
+                    </td>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.City</td>
+                    <td>@Model.Temp</td>
+                    <td>@Model.Temp_Min</td>
+                    <td>@Model.Temp_Max</td>
+                    <td>@Model.Description</td>
+
+
+                </tr>
+            </tbody>
+
+
+
+        </table>
+    </div>
+</div>
